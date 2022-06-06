@@ -1,5 +1,11 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 9rem;
+  background-image: url('/homebg.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width:100%;
+  height:1000px;
+
 }
 
 .main {
@@ -114,3 +120,16 @@
     flex-direction: column;
   }
 }
+
+.headinfo{
+  padding-top: 60px;
+  color:white;
+}
+.headinfo h1{
+  font-size: 45px;
+}
+.headinfo p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
